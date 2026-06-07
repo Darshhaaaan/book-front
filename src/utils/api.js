@@ -6,8 +6,8 @@
  * Production: NEXT_PUBLIC_API_URL=https://your-backend.onrender.com
  */
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
-
+const API_BASE = process.env.NEXT_PUBLIC_API_URL;
+console.log(API_BASE);
 async function fetcher(path, options = {}) {
   const url = `${API_BASE}${path}`;
   const res = await fetch(url, {
