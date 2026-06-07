@@ -1,0 +1,38 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  background: var(--bg-primary);
+}
+
+.content {
+  text-align: center;
+  max-width: 480px;
+}
+
+.icon {
+  font-size: 4rem;
+  color: var(--accent-warm);
+  margin-bottom: 24px;
+  opacity: 0.5;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.content p {
+  font-size: 1rem;
+  color: var(--text-tertiary);
+  margin-bottom: 40px;
+}
+
+.btns {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
