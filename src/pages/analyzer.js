@@ -209,7 +209,7 @@ export default function Analyzer() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
               >
-                No matches for &ldquo;{query}&rdquo; — try a different title or author name.
+                searching...
               </motion.p>
             )}
           </motion.div>
